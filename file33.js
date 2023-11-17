@@ -6,3 +6,7 @@ const person = {
     hobbies : ["Guitar","Sleeping","Listening Music","Eating"]
 }
 
+
+for(let key in person){
+    console.log(key ,":",person[key]);
+}
