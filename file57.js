@@ -21,4 +21,4 @@ const products = [
 
 const answer = products.every(cartItem=> cartItem.price < 15000);
 
-console.log(answer)
+console.log(answer);
