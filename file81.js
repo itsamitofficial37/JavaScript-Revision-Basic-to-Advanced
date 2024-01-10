@@ -20,14 +20,14 @@
 
 // // currying through bind function
 
-// const add2 = (x,y)=> {
-//     return x+y;
+const add2 = (x,y)=> {
+    return x+y;
 
-// }
+}
 
-// const answer = add2.bind(this, 2 );
+const answer = add2.bind(this, 2 );
 
-// console.log(answer(3));
+console.log(answer(3));
 
 // const details = {
 //   firstName: "Amit ",
